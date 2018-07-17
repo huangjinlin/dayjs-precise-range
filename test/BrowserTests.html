@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  </body>
+  <script src="https://unpkg.com/dayjs"></script>
+  <script src="../index.js"></script>
+  <script>
+    dayjs.extend(preciseDiff);
+    var m1 = dayjs('2014-01-01 12:00:00');
+    var m2 = dayjs('2014-02-03 15:04:05');
+    var diff = dayjs.preciseDiff(m1, m2); // '1 month 2 days 3 hours 4 minutes 5 seconds'
+    console.log("diff",diff);
+  </script>
+</html>

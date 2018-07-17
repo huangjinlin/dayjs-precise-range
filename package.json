@@ -1,0 +1,28 @@
+{
+  "name": "dayjs-precise-range",
+  "version": "1.0.0",
+  "description": "This is a plugin for the dayjs to display date/time ranges precisely, in a human-readable format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangjinlin/dayjs-precise-range.git"
+  },
+  "keywords": [
+    "dayjs",
+    "plugin",
+    "precisely",
+    "format"
+  ],
+  "author": "huangjinlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangjinlin/dayjs-precise-range/issues"
+  },
+  "homepage": "https://github.com/huangjinlin/dayjs-precise-range#readme",
+  "devDependencies": {
+    "dayjs": "^1.7.4"
+  }
+}
