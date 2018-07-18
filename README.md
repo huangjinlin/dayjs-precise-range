@@ -1,5 +1,5 @@
 # dayjs-precise-range
-This is a plugin for the <a href="https://github.com/iamkun/dayjs">dayjs.js</a> and modify from  <a href="https://codebox.net/pages/moment-date-range-plugin">moment-date-range-plugin</a>
+This is a plugin for the <a href="https://github.com/iamkun/dayjs">dayjs.js</a> and inspired from  <a href="https://codebox.net/pages/moment-date-range-plugin">moment-date-range-plugin</a>
 In the example below the difference between the 2 dates is 1 month, 2 days, 3 hours, 4 minutes and 5 seconds exactly, however this is simplified to just 'a month' by the library.
 
     var dayjs = require('dayjs');

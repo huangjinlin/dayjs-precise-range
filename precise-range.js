@@ -1,6 +1,7 @@
 /*
 version:1.0.0
 author:huangjinlin
+repository:https://github.com/huangjinlin/dayjs-precise-range
 */
 ;(function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :

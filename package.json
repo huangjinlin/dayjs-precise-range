@@ -2,7 +2,7 @@
   "name": "dayjs-precise-range",
   "version": "1.0.0",
   "description": "This is a plugin for the dayjs to display date/time ranges precisely, in a human-readable format.",
-  "main": "index.js",
+  "main": "precise-range.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
