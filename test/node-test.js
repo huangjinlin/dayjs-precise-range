@@ -1,5 +1,5 @@
 var dayjs = require('dayjs');
-var preciseDiff = require('../index.js');
+var preciseDiff = require('../precise-range.js');
 //or
 //var preciseDiff = require('dayjs/plugin/preciseDiff')
 dayjs.extend(preciseDiff);

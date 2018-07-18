@@ -1,5 +1,5 @@
 /*
-version:1.0.0
+version:1.0.1
 author:huangjinlin
 repository:https://github.com/huangjinlin/dayjs-precise-range
 */
@@ -104,7 +104,7 @@ repository:https://github.com/huangjinlin/dayjs-precise-range
             dDiff--;
         }
         if (dDiff < 0) {
-            var daysInLastFullMonth = dayjsFactory(m2.year() + '-' + (m2.month() + 1), "YYYY-MM").subtract(1, 'M').daysInMonth();
+            var daysInLastFullMonth = dayjsFactory(m2.year() + '-' + (m2.month() + 1)).subtract(1, 'M').daysInMonth();
             if (daysInLastFullMonth < m1.date()) { // 31/01 -> 2/03
                 dDiff = daysInLastFullMonth + dDiff + (m1.date() - daysInLastFullMonth);
             } else {
